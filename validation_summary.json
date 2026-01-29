@@ -1,0 +1,56 @@
+{
+  "total_samples": 20,
+  "samples_with_bandgaps": 10,
+  "success_rate": 0.5,
+  "frequency_stats": {
+    "min": 2723.2323232323233,
+    "max": 4975.252525252525,
+    "mean": 3963.0808080808083,
+    "std": 743.6976453061518,
+    "range": 2252.0202020202014
+  },
+  "lattice_stats": {
+    "min": 29.375257571136125,
+    "max": 46.36892534087448,
+    "mean": 38.34629566354024
+  },
+  "bandgap_quality": {
+    "mean_depth": 0.6897732403651908,
+    "std_depth": 0.06219814778377126,
+    "mean_width": 757.2727272727274,
+    "std_width": 336.4564588155595
+  },
+  "correlations": {
+    "lattice_frequency": -0.7055149610031334,
+    "void_frequency": -0.08460478215371137
+  },
+  "shape_breakdown": {
+    "circle": {
+      "count": 2,
+      "mean_frequency": 4220.454545454546,
+      "std_frequency": 86.61616161616121
+    },
+    "cross": {
+      "count": 3,
+      "mean_frequency": 2987.2053872053875,
+      "std_frequency": 187.74765224252891
+    },
+    "hexagon": {
+      "count": 2,
+      "mean_frequency": 4727.777777777777,
+      "std_frequency": 247.4747474747469
+    },
+    "square": {
+      "count": 3,
+      "mean_frequency": 4257.575757575758,
+      "std_frequency": 538.0323360921859
+    }
+  },
+  "theory_comparison": {
+    "mean_relative_error_percent": 14.526574428797247,
+    "std_relative_error_percent": 10.345742575605716,
+    "min_error_percent": 3.6216759266448384,
+    "max_error_percent": 31.699364230399752
+  },
+  "validation_status": "PASSED"
+}
